@@ -1,0 +1,46 @@
+h1.Titulo{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+span.letra{
+    font-size: 80px;
+    color: black;
+}
+div.Titulo{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+
+span.vida:hover{
+    background-color: yellow;
+    color: red;
+}
+h4{
+    counter-reset: pepino;
+}
+p.nombre::before{
+    content: counter(pepino)". ";
+    counter-increment: pepino ;
+    color: black;
+}
+p.texto::first-line{
+ color: brown;
+}
+p.textito::first-line{
+    color: brown;
+   }
+body.body{
+    background-color: aquamarine;
+}
+div.imagen{
+    float: right;
+}
+a:link{
+    background-color: azure;
+}
+a:visited{
+    background-color: blue;
+}
